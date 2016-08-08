@@ -13,7 +13,7 @@ The goal of this exercise is to deliver a single page of personalized content in
 1. Visiting "/" on the web application server should display an HTML page.
 	1. At the top of the page a headline should display with the following content: "My Delicious Articles"
 	2. A profile id should be retrieved from "https://peaceful-springs-7920.herokuapp.com/profile/" on every page load.
-		1. The profile id should persist the same value across requests for 365 days.
+		1. The profile id each user acquires should persist the same value for that user across requests for 365 days.
 	3. Using the profile id acquired, profile specific content should be retrieved from "https://peaceful-springs-7920.herokuapp.com/content/PROFILE_ID/".
 		1. The "articles" from the profile specific content should be displayed directly below the headline.
 			1. The articles should be displayed in the order they were returned by the endpoint.
